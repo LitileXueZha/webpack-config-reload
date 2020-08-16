@@ -1,0 +1,53 @@
+{
+  "name": "webpack-config-reload",
+  "version": "0.0.1",
+  "description": "热加载 webpack 配置。修改 webpack 相关配置文件后，自动重启脚本命令，比如 dev-server",
+  "scripts": {
+    "start": "wc-reload --allow awa webpack-dev-server  --config a.jsada --oth",
+    "test": "wc-reload"
+  },
+  "bin": {
+    "wc-reload": "./index.js"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitileXueZha/webpack-config-reload.git"
+  },
+  "keywords": [
+    "webpack",
+    "config",
+    "reload",
+    "auto",
+    "autoreload",
+    "wc-reload",
+    "webpack-config-reload",
+    "hotreload",
+    "configuration",
+    "webpack.config.js"
+  ],
+  "author": "litilexuezha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LitileXueZha/webpack-config-reload/issues"
+  },
+  "homepage": "https://github.com/LitileXueZha/webpack-config-reload#readme",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "commander": "^6.0.0"
+  }
+}
