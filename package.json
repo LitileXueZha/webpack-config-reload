@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-reload",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "热加载 webpack 配置。修改 webpack 相关配置文件后，自动重启脚本命令，比如 dev-server",
   "scripts": {
     "start": "wc-reload --allow awa webpack-dev-server  --config a.jsada --oth",
